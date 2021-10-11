@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: "Open Sans";
+  }
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(52, 189, 216, 0.9);
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+    
+  }
+
+  .header-left h1{
+      font-size: 24px;
+      color: aliceblue;
+      padding: 5px;
+  }
+
+  .menu-header ul {
+	color:#fff;
+	list-style: none;
+	float:left;
+	padding:0;
+	margin:0 0 0;
+	
+}
+ 
+.menu-header li {
+	margin:0;
+	float:left;
+}
+ 
+.menu-header a {
+	padding:25px;
+	display:block;
+	font-size: 14px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+ 
+.menu-header a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+  
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    /* Ubah property transition */
+    transition: all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Tambahkan CSS untuk tag <a> didalam header-right */
+  .header-right a {
+    line-height: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    display:block;
+  }
+  
