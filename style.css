@@ -3,78 +3,61 @@ body {
   font-family: "Open Sans";
 }
 
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(52, 189, 216, 0.9);
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
-.header-left {
+.wrapper img {
   float: left;
-
-}
-
-.header-left h1 {
-  font-size: 24px;
-  color: aliceblue;
   padding: 5px;
+  width: 15%;
 }
 
-.menu-header ul {
-  color: #fff;
-  list-style: none;
-  float: left;
-  padding: 0;
-  margin: 0 0 0;
-
+.menu {
+  float: right;
 }
 
-.menu-header li {
+header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky; 
+  top: 0;
+  background: #FFFFFF;
+  z-index: 1;
+  border-bottom:1px solid #364f6b;
+}
+
+header ul {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+header ul li {
   float: left;
 }
 
-.menu-header a {
-  padding: 25px;
-  display: block;
-  font-size: 14px;
-  color: #fff;
-  text-transform: uppercase;
-  transition: all 0.5s ease;
+header ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
   text-decoration: none;
 }
 
-.menu-header a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.header-right {
-  float: right;
-  background-color: rgba(255, 255, 255, 0.5);
-  /* Ubah property transition */
-  transition: all 0.5s;
-}
-
-.header-right:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-/* Tambahkan CSS untuk tag <a> didalam header-right */
-.header-right a {
-  line-height: 65px;
-  padding-left: 25px;
-  padding-right: 25px;
-  color: white;
-  display: block;
+header ul li a:hover {
+  text-decoration: underline;
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
+  padding: 100px 0 30px 0;
   background-image: url(https://1.bp.blogspot.com/-TQoQgfDtH7E/XZ5kj-AvzRI/AAAAAAAAQsE/xXs9kw4uOdk1jwY-O6fLSmM9wtnOUPaywCLcBGAsYHQ/s1600/Dinamika%2BKelompok.jpg);
   background-size: cover;
   color: white;
