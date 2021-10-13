@@ -91,6 +91,7 @@ header {
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
+  color: RGB (101, 66, 43, 0.0);
 }
 
 .btn-wrapper {
@@ -127,5 +128,5 @@ header {
 }
 
 .top-wrapper span {
-  color: #ffff;
+  color: #3b5998;
 }
