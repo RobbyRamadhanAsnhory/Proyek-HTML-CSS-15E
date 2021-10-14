@@ -13,6 +13,11 @@
       width: 30%;
       margin-bottom: 30px;
       margin-left: 80px;
+      height: fit-content;
+    }
+
+    .des {
+      margin-bottom: 15px;
     }
 
     .menufooter {
@@ -41,6 +46,10 @@
       font-size: 12px;
   }
 
+  .menu ul {
+    margin-left: 10px;
+  }
+
   footer img {
     padding: 3px;
   }
@@ -49,11 +58,75 @@
 
   /*Close-- Responsive Tablet => Robby Ramadhan */
   
-    
-
+  /* Untuk Smartphone */
   @media all and (max-width: 670px) {
     .form {
       width:100%;
       height: fit-content;
     }
+
+    .wrapper img {
+      width: 20%;
+    }
+
+    .menu {
+      display: none;
+    }
+
+    .icon {
+      display: block;
+    }
+
+    .top-wrapper h1 {
+      font-size: 26px;
+  }
+
+  .top-wrapper p {
+    font-size: 10px;
+}
+
+.btn {
+  padding: 8px 12px;
+}
+
+.judul h1 {
+  font-size: 13px;
+}
+
+.lessons {
+  width: 70%;
+  height: fit-content;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.menufooter {
+  text-align: center;
+}
+
+.menufooter3 {
+  margin-left: 20px;
+}
+
+.menufooter2 {
+  margin-left: 30px;
+}
+
+.section-title h3 {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.section-form {
+  font-size: 17px;
+}
+
+footer img {
+  width: 30%;
+}
+
+.des {
+  margin-bottom: 15px;
+}
+
   }

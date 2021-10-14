@@ -16,8 +16,21 @@ body {
   width: 14%;
 }
 
+.icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
 .menu {
   float: right;
+  padding: 10px 14px;
 }
 
 header {
@@ -60,7 +73,7 @@ header ul li a:hover {
   padding: 100px 0 30px 0;
   background-image: url(https://1.bp.blogspot.com/-TQoQgfDtH7E/XZ5kj-AvzRI/AAAAAAAAQsE/xXs9kw4uOdk1jwY-O6fLSmM9wtnOUPaywCLcBGAsYHQ/s1600/Dinamika%2BKelompok.jpg);
   background-size: cover;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -78,7 +91,7 @@ header ul li a:hover {
 }
 
 .btn-wrapper {
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .btn-wrapper p {
