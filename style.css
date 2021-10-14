@@ -188,6 +188,7 @@ header ul li a:hover {
   display: block;
   border-radius: 7px;
   box-sizing: border-box;
+  box-shadow: 4px 4px 8px rgb(197, 155, 180);
 }
 
 .section-title{

@@ -1,21 +1,38 @@
 /*Responsive Tablet => Robby Ramadhan */
 @media all and (max-width: 1000px) {
-    .top-wrapper h1 {
-        font-size: 32px;
+  .top-wrapper h1 {
+      font-size: 32px;
+  }
+  
+  .lessons {
+      width: 40%;
+      margin-bottom: 30px;
     }
-    
-    .lessons {
-        width: 40%;
-        margin-bottom: 30px;
-      }
-    
-      .wrapper img { 
-        padding-top: 20px;
-        padding-left: 10px;
-      }
+  
+    .wrapper img { 
+      padding-top: 20px;
+      padding-left: 10px;
+    }
     
     .menu a {
         font-size: 14px;
     }
-    
+
+    .form {
+      width:60%;
+      background-size: auto;
+      height: fit-content;
     }
+
+    
+
+
+  }
+    
+
+  @media all and (max-width: 670px) {
+    .form {
+      width:100%;
+      height: fit-content;
+    }
+  }
