@@ -13,7 +13,7 @@ body {
 .wrapper img {
   float: left;
   padding: 5px;
-  width: 15%;
+  width: 14%;
 }
 
 .menu {
@@ -24,7 +24,7 @@ header {
   width: 100%;
   margin: auto;
   display: flex;
-  line-height: 80px;
+  line-height: 60px;
   position: sticky;
   position: -webkit-sticky; 
   top: 0;
