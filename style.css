@@ -105,39 +105,72 @@ header ul li a:hover {
   color: #3b5998;
 }
 
-.lesson-wrapper {
-  height: 500px;
-  padding-bottom: 80px;
-  background-color: #f7f7f7;
-  text-align: center;
-}
 
-.heading {
-  padding-top: 60px;
-  padding-bottom: 30px;
+.lesson-wrapper{
+  margin: 2%;
+  align-items: center;
+ }
+
+ .judul h1 {
+  padding-top: 10px;
+  padding-bottom: 5px;
   color: #5f5d60;
-}
-
-.heading h2 {
   font-weight: normal;
-}
+  text-align: center;
+  font-size: 25px;
+ }
+ 
+ .lessons{
+      height: 400px;
+      width: 19%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px; 
+      margin-top: 20px;
+      margin-left: 100px;
+      margin-bottom: 20px;
+      margin-right: 50px;
+     }
+ 
+ .lesson-icon img{
+   width: 100%;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   
+  }
+ 
+ .title{
+  
+   text-align: center;
+   
+  }
+ 
+ h1{
+   font-size: 13px;
+  }
+ 
+ .des{
+   font-size: 13px;
+   text-align: center;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
 
-.lesson {
-  float: left;
-  width: 20%;
-  height: 50px;
-}
+ }
 
-.lesson-icon {
-  position: relative;
-}
 
-.lesson-icon p {
-  position: absolute;
-  top: 90px;
-  width: 100%;
-  color: white;
-}
+ button{
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding:5px;
+ }
+ button:hover{
+   background-color: black;
+   color: white;
+   transition: .5s;
+   cursor: pointer;
+ }
+ 
 /* open: FORM SECTION by rowan6999  */
 * {box-sizing: border-box;}
 

@@ -1,0 +1,21 @@
+/*Responsive Tablet => Robby Ramadhan */
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+    
+    .lessons {
+        width: 40%;
+        margin-bottom: 30px;
+      }
+    
+      .wrapper img { 
+        padding-top: 20px;
+        padding-left: 10px;
+      }
+    
+    .menu a {
+        font-size: 14px;
+    }
+    
+    }
