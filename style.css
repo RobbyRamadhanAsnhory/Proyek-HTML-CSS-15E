@@ -89,15 +89,6 @@ header ul li a:hover {
   background-color: #239b76;
 }
 
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
 .btn {
   padding: 12px 24px;
   color: white;
@@ -229,3 +220,91 @@ header ul li a:hover {
 }
 
 /* close: FORM SECTION by rowan6999  */
+.garisvertikal{
+  border-left: 1px black solid;
+  height: 50px;
+  float: left;
+  padding-left:40px;
+  width: 0px;
+}
+footer img {
+  float: left;
+  padding: 5px;
+  width: 15%;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+footer ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer li{
+  padding-bottom: 10px;
+}
+
+.menufooter{
+  float: left;
+  font-size:12px;
+}
+
+.menufooter2{
+  float: left;
+  font-size: 12px;
+  padding-left: 300px;
+}
+
+.menufooter3{
+  float: left;
+  font-size: 12px;
+  padding-left: 50px;
+}
+
+.menufooter4 img{
+  height: 32px;
+  width: 32px;
+}
+
+.katasosmed{
+  float: left;
+  padding-left: 110px;
+  margin-top: 10px;
+  color:black;
+}
+
+.menufooter4{
+  float: left;
+  padding-left: 100px;
+  
+}
+
+.menufooter4 ul li {
+  float: left;
+  
+}
+
+.menufooter4 ul li a{
+  padding:0px 3px 0px 3px;
+}
