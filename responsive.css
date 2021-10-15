@@ -24,6 +24,14 @@
       display:none;
     }
 
+    .katasosmed {
+      padding-left: 300px;
+    }
+
+    .menufooter4 ul {
+      padding-left: 460px;
+    }
+
   }
     
 
@@ -57,9 +65,43 @@
       cursor: pointer;
       background-color: black;
     }
-    footer{
-      width: fit-content;
-      height: fit-content;
-      position: 50% 50%;
-    }
+    
+.menufooter {
+  text-align: center;
+}
+
+.menufooter3 {
+  margin-left: 20px;
+}
+
+.menufooter2 {
+  float: left;
+  padding-left: 110px;
+}
+
+.section-title h3 {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.section-form {
+  font-size: 17px;
+}
+
+footer img {
+  width: 30%;
+}
+
+.katasosmed {
+  padding-left: 115px;
+}
+
+.menufooter4 ul {
+padding-left: 0px;
+}
+
+.des {
+  margin-bottom: 15px;
+}
+
   }
