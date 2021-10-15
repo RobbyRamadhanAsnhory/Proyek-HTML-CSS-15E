@@ -1,132 +1,65 @@
-/*Open-- Responsive Tablet => Robby Ramadhan */
+/*Responsive Tablet => Robby Ramadhan */
 @media all and (max-width: 1000px) {
-  .top-wrapper h1 {
-      font-size: 32px;
-  }
-
-  .wrapper img {
-    width: 13%;
-    margin-left: 40px;
-  }    
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
   
-  .lessons {
-      width: 30%;
-      margin-bottom: 30px;
-      margin-left: 80px;
+    .lessons {
+      width: 43%;
+      margin: 20px 20px;
+      height: fit-content;
+    }
+    
+    .des{
+      margin-bottom: 15px;
+    }
+    
+    .form {
+      width:60%;
+      background-size: auto;
       height: fit-content;
     }
 
-    .des {
-      margin-bottom: 15px;
+    .menu-icon{
+      display:none;
     }
 
-    .menufooter {
-      font-size: 10px;
-    }
-
-    .menufooter2{
-      padding-left: 70px;
-      font-size: 10px;
-    }
-
-    .menufooter3 {
-      padding-left: 30px;
-    }
-
-    .menufooter4 {
-      padding-left: 80px;
-    }
-  
-    .wrapper img { 
-      padding-top: 20px;
-      padding-left: 6px;
-    }
-  
-  .menu a {
-      font-size: 12px;
   }
+    
 
-  .menu ul {
-    margin-left: 10px;
-  }
-
-  footer img {
-    padding: 3px;
-  }
-  
-  }
-
-  /*Close-- Responsive Tablet => Robby Ramadhan */
-  
-  /* Untuk Smartphone */
   @media all and (max-width: 670px) {
     .form {
       width:100%;
       height: fit-content;
     }
 
-    .wrapper img {
-      width: 20%;
+    .header-right{
+      display:none;
     }
 
-    .menu {
-      display: none;
+    .lessons{
+      width: fit-content;
+      height: fit-content;
+      margin: 35px 35px;
     }
-
-    .icon {
-      display: block;
+    .menu-icon{
+      color: rgb(0, 0, 0);
+      float: right;
+      line-height: 20px;
+      font-size: 30px;
+      padding: 12px 12;
+      margin-right: 12px;
+      display:block;
     }
-
-    .top-wrapper h1 {
-      font-size: 26px;
-  }
-
-  .top-wrapper p {
-    font-size: 10px;
-}
-
-.btn {
-  padding: 8px 12px;
-}
-
-.judul h1 {
-  font-size: 13px;
-}
-
-.lessons {
-  width: 70%;
-  height: fit-content;
-  margin-left: 50px;
-  margin-bottom: 15px;
-}
-
-.menufooter {
-  text-align: center;
-}
-
-.menufooter3 {
-  margin-left: 20px;
-}
-
-.menufooter2 {
-  margin-left: 30px;
-}
-
-.section-title h3 {
-  font-size: 20px;
-  padding-top: 20px;
-}
-
-.section-form {
-  font-size: 17px;
-}
-
-footer img {
-  width: 30%;
-}
-
-.des {
-  margin-bottom: 15px;
-}
-
+    .menu-icon:hover{
+      color: rgb(255, 255, 255);
+      opacity: 0.9;
+      cursor: pointer;
+      background-color: black;
+    }
+    footer{
+      width: fit-content;
+      height: fit-content;
+      position: 50% 50%;
+    }
   }

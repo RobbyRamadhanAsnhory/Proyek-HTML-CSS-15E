@@ -2,92 +2,90 @@ body {
   margin: 0;
   font-family: "Open Sans";
 }
-
-
-.wrapper {
-  width: 1100px;
-  margin: auto;
-  position: relative;
+.container-header{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
 }
-
-.wrapper img {
-  float: left;
-  padding: 5px;
-  width: 14%;
+/*
+header {
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
 }
-
-.icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-.menu {
-  float: right;
-  padding: 10px 14px;
-}
-
+*/
 header {
   width: 100%;
   margin: auto;
-  display: flex;
-  line-height: 60px;
-  position: sticky;
-  position: -webkit-sticky; 
+  height: 55px;
+  position: fixed;
   top: 0;
   background: #FFFFFF;
-  z-index: 1;
-  border-bottom:1px solid #364f6b;
+  z-index: 5;
+  border-bottom:2px solid #000000;
 }
 
-header ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+header img {
+  width: 40%;
 }
 
-header ul li {
+.header-left {
   float: left;
 }
 
-header ul li a {
-  color: black;
-  font-weight: bold;
-  text-align: center;
-  padding: 0px 16px 0px 16px;
-  text-decoration: none;
+.header-right {
+  float: right;
+  margin-right: -25px;
 }
 
-header ul li a:hover {
-  text-decoration: underline;
+.header-right a{
+  float: right;
+  display: block;
+  line-height: 33px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+  padding: 10px;
+  transition: all 0.5s;
 }
+
+.header-right a:hover{
+  opacity: 0.9;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.menu-icon{
+  color: rgb(255, 255, 255);
+  float: right;
+  padding: 12px 12px;
+  display:none;
+}
+
+
 
 .top-wrapper {
   padding: 100px 0 30px 0;
   background-image: url(https://1.bp.blogspot.com/-TQoQgfDtH7E/XZ5kj-AvzRI/AAAAAAAAQsE/xXs9kw4uOdk1jwY-O6fLSmM9wtnOUPaywCLcBGAsYHQ/s1600/Dinamika%2BKelompok.jpg);
   background-size: cover;
-  color: rgb(0, 0, 0);
+  color: rgb(25, 0, 253);
   text-align: center;
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
+  opacity: 0.8;
   font-size: 45px;
   letter-spacing: 5px;
-  margin-bottom: 10px;
 }
 
 .top-wrapper p {
-  opacity: 0.7;
+  opacity: 0.8;
   margin-bottom: 3px;
   color:RGB (101,66,43, 0.0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .btn-wrapper {
@@ -115,9 +113,14 @@ header ul li a:hover {
 }
 
 .top-wrapper span {
-  color: #3b5998;
+  color: #ff0000;
+  font-size: 100px;
+  font-weight: bold;
 }
 
+.container-cards{
+  width: fit-content;
+}
 
 .lesson-wrapper{
   margin: 2%;
