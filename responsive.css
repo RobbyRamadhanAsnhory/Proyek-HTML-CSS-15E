@@ -1,107 +1,135 @@
 /*Responsive Tablet => Robby Ramadhan */
+
 @media all and (max-width: 1000px) {
-    .top-wrapper h1 {
-        font-size: 32px;
-    }
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  header img {
+    width: 17%;
+    height: fit-content;
+  }
+
+  .lessons {
+    width: 43%;
+    margin: 20px 20px;
+    height: fit-content;
+  }
+  .des {
+    margin-bottom: 15px;
+  }
+  .form {
+    width: 60%;
+    background-size: auto;
+    height: fit-content;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .katasosmed {
+    padding-left: 300px;
+  }
+  .menufooter4 ul {
+    padding-left: 460px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .form {
+    width: 100%;
+    height: fit-content;
+  }
   
-    .lessons {
-      width: 43%;
-      margin: 20px 20px;
-      height: fit-content;
-    }
-    
-    .des{
-      margin-bottom: 15px;
-    }
-    
-    .form {
-      width:60%;
-      background-size: auto;
-      height: fit-content;
-    }
-
-    .menu-icon{
-      display:none;
-    }
-
-    .katasosmed {
-      padding-left: 300px;
-    }
-
-    .menufooter4 ul {
-      padding-left: 460px;
-    }
-
+  header img {
+    width: 40%;
+    margin-top: 8px;
+    height: fit-content;
   }
-    
-
-  @media all and (max-width: 670px) {
-    .form {
-      width:100%;
-      height: fit-content;
-    }
-
-    .header-right{
-      display:none;
-    }
-
-    .lessons{
-      width: fit-content;
-      height: fit-content;
-      margin: 35px 35px;
-    }
-    .menu-icon{
-      color: rgb(0, 0, 0);
-      float: right;
-      line-height: 20px;
-      font-size: 30px;
-      padding: 12px 12;
-      margin-right: 12px;
-      display:block;
-    }
-    .menu-icon:hover{
-      color: rgb(255, 255, 255);
-      opacity: 0.9;
-      cursor: pointer;
-      background-color: black;
-    }
-    
-.menufooter {
-  text-align: center;
-}
-
-.menufooter3 {
-  margin-left: 20px;
-}
-
-.menufooter2 {
-  float: left;
-  padding-left: 110px;
-}
-
-.section-title h3 {
-  font-size: 20px;
-  padding-top: 20px;
-}
-
-.section-form {
-  font-size: 17px;
-}
-
-footer img {
-  width: 30%;
-}
-
-.katasosmed {
-  padding-left: 115px;
-}
-
-.menufooter4 ul {
-padding-left: 0px;
-}
-
-.des {
-  margin-bottom: 15px;
-}
-
+  
+  .checkbtn{
+    display: block;
   }
+
+  ul{
+    position: fixed;
+    width: 45%;
+    height: 48%;
+    background: white;
+    top: 80px;
+    left: -90%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  header li{
+    display: block;
+    margin: 30px 0;
+    line-height: 30px;
+  }
+
+  header a{
+    font-size: 20px;
+  }
+
+  a:hover{
+    background: none;
+    color: #0082e6;
+  }
+
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+  .btn:hover {
+    background: #d7dee4;
+    opacity: o.5;
+    transition: .5s;
+  }
+
+  .lessons {
+    width: 60%;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    height: fit-content;
+  }
+
+  .des {
+    margin-bottom: 15px;
+  }
+
+  .section-title h3 {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  .section-form {
+    font-size: 17px;
+  }
+
+  .menufooter {
+    text-align: center;
+  }
+
+  .menufooter3 {
+    margin-left: 0px;
+  }
+
+  .menufooter2 {
+    float: left;
+    padding-left: 0px;
+  }
+
+  footer img {
+    width: 30%;
+  }
+
+  .katasosmed {
+    padding-left: 5px;
+  }
+
+  .menufooter4 ul {
+    padding-left: 0px;
+  }
+
+
+}

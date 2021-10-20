@@ -2,70 +2,65 @@ body {
   margin: 0;
   font-family: "Open Sans";
 }
-.container-header{
-  max-width: 1170px;
-  width: 100%;
-  margin: 0 auto;
-}
-/*
+
+
 header {
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-*/
-header {
-  width: 100%;
+  height: 80px;
+  position: sticky;
+  position: -webkit-sticky; 
   margin: auto;
-  height: 55px;
-  position: fixed;
   top: 0;
   background: #FFFFFF;
-  z-index: 5;
-  border-bottom:2px solid #000000;
+  z-index: 1;
+  border-bottom:1px solid #364f6b;
 }
 
 header img {
-  width: 40%;
-}
-
-.header-left {
   float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-
-.header-right a{
-  float: right;
-  display: block;
-  line-height: 33px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 17px;
   padding: 10px;
-  transition: all 0.5s;
+  margin-top: 5px;
+  width: 12%;
+  height: fit-content;
 }
 
-.header-right a:hover{
-  opacity: 0.9;
-  background-color: rgb(0, 0, 0);
-  color: white;
-}
-
-.menu-icon{
-  color: rgb(255, 255, 255);
+header ul{
   float: right;
-  padding: 12px 12px;
-  display:none;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 20px;
+  overflow: hidden;
+}
+header li{
+  display: inline-block;
+  line-height: 80px;
+}
+header a{
+  color: black;
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-align: center;
+  text-transform: none;
+  text-decoration: none;
+}
+a:hover{
+  background: #d7dee4;
+  transition: .5s;
 }
 
-
+.checkbtn{
+  font-size: 30px;
+  color:black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
 
 .top-wrapper {
   padding: 100px 0 30px 0;
@@ -84,7 +79,7 @@ header img {
 .top-wrapper p {
   opacity: 0.8;
   margin-bottom: 3px;
-  color:RGB (101,66,43, 0.0);
+  color: RGB (101, 66, 43, 0.0);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -109,7 +104,7 @@ header img {
 }
 
 .btn:hover {
-  opacity: 1;
+  opacity: o.5;
 }
 
 .top-wrapper span {
@@ -118,85 +113,84 @@ header img {
   font-weight: bold;
 }
 
-.container-cards{
+.container-cards {
   width: fit-content;
 }
 
-.lesson-wrapper{
+.lesson-wrapper {
   margin: 2%;
   align-items: center;
- }
+}
 
- .judul h1 {
+.judul h1 {
   padding-top: 10px;
   padding-bottom: 5px;
   color: #5f5d60;
   font-weight: normal;
   text-align: center;
   font-size: 25px;
- }
- 
- .lessons{
-      height: 400px;
-      width: 19%;
-      display: inline-block;
-      box-shadow: 2px 2px 20px black;
-      border-radius: 5px; 
-      margin-top: 20px;
-      margin-left: 100px;
-      margin-bottom: 20px;
-      margin-right: 50px;
-     }
- 
- .lesson-icon img{
-   width: 100%;
-   border-top-right-radius: 5px;
-   border-top-left-radius: 5px;
-   
-  }
- 
- .title{
-  
-   text-align: center;
-   
-  }
- 
- h1{
-   font-size: 13px;
-  }
- 
- .des{
-   font-size: 13px;
-   text-align: center;
-   border-bottom-right-radius: 5px;
-   border-bottom-left-radius: 5px;
+}
 
- }
+.lessons {
+  height: 400px;
+  width: 19%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
 
+.lesson-icon img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
 
- button{
-   background-color: white;
-   border: 1px solid black;
-   border-radius: 5px;
-   padding:5px;
- }
- button:hover{
-   background-color: black;
-   color: white;
-   transition: .5s;
-   cursor: pointer;
- }
- 
+.title {
+  text-align: center;
+}
+
+h1 {
+  font-size: 13px;
+}
+
+.des {
+  font-size: 13px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
 /* open: FORM SECTION by rowan6999  */
-* {box-sizing: border-box;}
 
-.container-form{
+* {
+  box-sizing: border-box;
+}
+
+.container-form {
   padding: 30px 50px;
   background-image: url(img/bg-form.png);
   background-size: cover;
 }
 
-.form{
+.form {
   height: fit-content;
   width: 50%;
   padding: 16px 20px;
@@ -207,7 +201,7 @@ header img {
   box-shadow: 4px 4px 8px rgb(197, 155, 180);
 }
 
-.section-title{
+.section-title {
   font-size: 30px;
   color: rgb(27, 27, 27);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -216,29 +210,30 @@ header img {
   text-shadow: 1px 2px rgb(214, 5, 120);
 }
 
-.form img{
+.form img {
   width: 40%;
   float: none;
-  left: 50%;;
+  left: 50%;
+  ;
   margin-bottom: -45px;
 }
 
-.section-form{
+.section-form {
   font-size: 20px;
 }
 
-.section-form input[type=text], textarea{
-  width:100%;
+.section-form input[type=text], textarea {
+  width: 100%;
   display: block;
-  padding:10px 10px;
+  padding: 10px 10px;
   margin-bottom: 5px;
-  font-size:16px;
-  border:1px solid #dee7ec;
+  font-size: 16px;
+  border: 1px solid #dee7ec;
   border-radius: 5px;
   box-sizing: border-box;
 }
 
-.section-form input[type=submit]{
+.section-form input[type=submit] {
   background-color: #04AA6D;
   width: 100%;
   color: white;
@@ -247,37 +242,39 @@ header img {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow:   0px 7px #1a7940;
+  box-shadow: 0px 7px #1a7940;
 }
 
-.section-form input:hover, textarea:hover{
+.section-form input:hover, textarea:hover {
   opacity: 0.6;
 }
 
-.section-form input[type=submit]:active{
-  box-shadow:none;
-  position:relative;
-  top:7px
+.section-form input[type=submit]:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px
 }
 
-.contact-submit{
-  background-color:#dee7ec;
-  color:#889eab;
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
   font-size: 20px;
 }
 
-.label{
+.label {
   display: block;
 }
 
 /* close: FORM SECTION by rowan6999  */
-.garisvertikal{
+
+.garisvertikal {
   border-left: 1px black solid;
   height: 50px;
   float: left;
-  padding-left:40px;
+  padding-left: 40px;
   width: 0px;
 }
+
 footer img {
   float: left;
   padding: 5px;
@@ -293,6 +290,7 @@ footer {
   padding-top: 30px;
   padding-left: 20px;
 }
+
 footer ul {
   list-style-type: none;
   margin: 0;
@@ -312,50 +310,48 @@ footer ul li a:hover {
   text-decoration: underline;
 }
 
-footer li{
+footer li {
   padding-bottom: 10px;
 }
 
-.menufooter{
+.menufooter {
   float: left;
-  font-size:12px;
+  font-size: 12px;
 }
 
-.menufooter2{
+.menufooter2 {
   float: left;
   font-size: 12px;
   padding-left: 300px;
 }
 
-.menufooter3{
+.menufooter3 {
   float: left;
   font-size: 12px;
   padding-left: 50px;
 }
 
-.menufooter4 img{
+.menufooter4 img {
   height: 32px;
   width: 32px;
 }
 
-.katasosmed{
+.katasosmed {
   float: left;
   padding-left: 110px;
   margin-top: 10px;
-  color:black;
+  color: black;
 }
 
-.menufooter4{
+.menufooter4 {
   float: left;
   padding-left: 100px;
-  
 }
 
 .menufooter4 ul li {
   float: left;
-  
 }
 
-.menufooter4 ul li a{
-  padding:0px 3px 0px 3px;
+.menufooter4 ul li a {
+  padding: 0px 3px 0px 3px;
 }
