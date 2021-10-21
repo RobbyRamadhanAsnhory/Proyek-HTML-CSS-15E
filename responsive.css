@@ -1,5 +1,4 @@
 /*Responsive Tablet => Robby Ramadhan */
-
 @media all and (max-width: 1000px) {
   .top-wrapper h1 {
     font-size: 32px;
@@ -15,22 +14,37 @@
     margin: 20px 20px;
     height: fit-content;
   }
+
   .des {
     margin-bottom: 15px;
   }
+
   .form {
     width: 60%;
     background-size: auto;
     height: fit-content;
   }
+
   .menu-icon {
     display: none;
   }
-  .katasosmed {
-    padding-left: 300px;
+
+  footer {
+    height: fit-content;
   }
+
+  .menufooter2 {
+    padding-left: 50px;
+  }
+
+  .katasosmed {
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+
   .menufooter4 ul {
-    padding-left: 460px;
+    padding-left: 170px;
+    margin-top: 0px;
   }
 }
 
@@ -50,7 +64,7 @@
     display: block;
   }
 
-  ul{
+  header ul{
     position: fixed;
     width: 45%;
     height: 48%;
@@ -106,17 +120,29 @@
     font-size: 17px;
   }
 
-  .menufooter {
-    text-align: center;
+  .footer-atas, .footer-mid, .footer-bawah{
+    display: inline-block;
   }
 
-  .menufooter3 {
-    margin-left: 0px;
+  .footer-mid{
+    padding-left: 30%;
+  }
+
+  .footer-bawah p{
+    margin-left: 30%;
+  }
+
+  .menufooter {
+    text-align: center;
   }
 
   .menufooter2 {
     float: left;
     padding-left: 0px;
+  }
+
+  .menufooter3 {
+    margin-left: 0px;
   }
 
   footer img {
